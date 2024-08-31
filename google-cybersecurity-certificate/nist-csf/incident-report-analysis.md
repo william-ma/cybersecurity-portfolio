@@ -45,8 +45,7 @@ To mitigate events like this requires trained staff who can respond quickly to t
 
 ## Recover
 
-The incident management team restored all critical network services so the organization can continue to operate. 
-Non-critical network services have not yet been restored and will be restored later. 
+In future events the critical network services should be restored first, and only after the ICMP traffic is at a low level should the non-critical network services be restored. 
 We have informed management that data entered on the day of the incident may be lost, and they should inform employees and customers. 
 If management deems the network services critical enough, more frequent backups should be made, for example hourly. 
 
