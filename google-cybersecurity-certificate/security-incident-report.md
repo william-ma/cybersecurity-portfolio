@@ -2,9 +2,10 @@
 
 ## Section 1: Identify the network protocol involved in the incident
 
-From analyzing the tcpdump logs, the main network protocol involved in the incident is DNS. 
-DNS is responsible for translating domain names into IP addresses. 
-We can see from the network logs that the client makes a DNS request to an unrecognized domain (greatrecipesforme.com) which returns an unrecognized IP address (192.0.2.17).
+From analyzing the tcpdump logs, the main network protocol involved in the incident is HTTP. 
+HTTP is the protocol used for interacting with websites. 
+We can see from the network logs that the client makes a HTTP GET request for yummyrecipesforme.com, which is when the malware would be downloaded and executed. 
+Then another HTTP GET request is made to the unrecognized domain, greatrecipesforme.com.
 
 ## Section 2: Document the incident
 
