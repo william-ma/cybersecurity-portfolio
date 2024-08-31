@@ -8,12 +8,6 @@ This prevented employees of the organization from working, causing a hit to orga
 
 The disruption lasted for two hours until the incident was resolved by the incident management team blocking all incoming ICMP packets, stopping all non-critical network services, and restoring critical network services. 
 
-In response to this security event, the network security team implemented: 
-1. A new firewall rule to limit the rate of incoming ICMP packets
-2. Source IP address verification on the firewall to check for spoofed IP addresses on incoming ICMP packets
-3. Network monitoring software to detect abnormal traffic patterns
-4. An IPS system to filter out some ICMP traffic based on suspicious characteristics
-
 ## Identify
 
 The company's cybersecurity team reviewed the systems, network services, firewall configurations and logs involved in the attack. 
@@ -26,13 +20,10 @@ The ICMP packets could reach the internal network from outside because the firew
 
 ## Protect
 
-In order to protect the organization's internal network, the network security team has implemented a new firewall rule to limit the rate of incoming ICMP packets.
-This should greatly reduce the effectiveness of ICMP flood attacks. By limiting the rate of incoming ICMP packets, it'll be more difficult for network services to be overwhelmed and out of service. 
+The network security team implemented a new firewall rule to limit the rate of incoming ICMP packets. 
 
 The network security team and incident management team should be made aware of this attack. They should be able to recognize and respond to this type of attack quickly. 
 Training should also be provided to help identify and prevent similar attacks in the future, such as DDoS attacks.
-
-Source IP address verification on the firewall has also been implemented to ensure ICMP packets with the source IP of a device in the network is not coming from outside the firewall. This can prevent IP spoofing attacks. 
 
 An IPS system has also been implemented which could filter out some ICMP traffic based on suspicious characteristics. 
 
@@ -41,6 +32,7 @@ Critical services should be segmented into a restricted zone, so if one network 
 ## Detect
 
 To detect future ICMP flood attacks, an IPS (Intrusion Prevention Software) has been implemented. 
+Source IP address verification on the firewall has also been implemented to ensure ICMP packets with the source IP of a device in the network is not coming from outside the firewall. This can prevent IP spoofing attacks. 
 An IPS could detect and prevent ICMP flood attacks if it matches suspicious characteristics. 
 The network security team will also use SIEM tools to detect and prevent similar attacks.  
 
