@@ -30,10 +30,13 @@ In order to protect the organization's internal network, the network security te
 This should greatly reduce the effectiveness of ICMP flood attacks. By limiting the rate of incoming ICMP packets, it'll be more difficult for network services to be overwhelmed and out of service. 
 
 The network security team and incident management team should be made aware of this attack. They should be able to recognize and respond to this type of attack quickly. 
+Training should also be provided to help identify and prevent similar attacks in the future, such as DDoS attacks.
 
 Source IP address verification on the firewall has also been implemented to ensure ICMP packets with the source IP of a device in the network is not coming from outside the firewall. This can prevent IP spoofing attacks. 
 
 An IPS system has also been implemented which could filter out some ICMP traffic based on suspicious characteristics. 
+
+Critical services should be segmented into a restricted zone, so if one network segments gets compromised it won't affect the rest. 
 
 ## Detect
 
@@ -44,8 +47,9 @@ The network security team will also use SIEM tools to detect and prevent similar
 ## Respond
 
 The incident management team blocked all incoming ICMP packets and stopped all non-critical network services incase they were compromised. 
-Training has been provided to the network security team to help identify similar attacks in the future, such as DDoS attacks.
 We informed the organization's management of the security incident. 
+In future events like this, analyzing the logs either from a SIEM tool or directly in the firewall log. 
+To mitigate events like this requires trained staff who can respond quickly to this security incident. 
 
 ## Recover
 
