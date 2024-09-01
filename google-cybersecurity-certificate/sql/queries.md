@@ -9,9 +9,12 @@ I will conduct an investigation using SQL to query the `log_in_attempts` and `em
 
 There were failed login attempts made after usual business hours. Usual office hours end at '18:00'. 
 
+![image](https://github.com/user-attachments/assets/9f501b17-8fd6-45bf-8b94-aa18426e0556)
+
 So, the following query is ran, which selects all the columns in the `log_in_attempts` table, where the log in attempt occurred after 6PM and were unsuccessful. 
 
-![image](https://github.com/user-attachments/assets/9f501b17-8fd6-45bf-8b94-aa18426e0556)
+The `>` is used on the `login_date` column, which stands for greater than. So everything, after '18:00' will match that criteria. 
+The `AND` operator is also used so the `SELECT` statement will return rows which match both criteria where the `success` column is 0. 
 
 ## Retrieve login attempts on specific dates
 
