@@ -52,7 +52,7 @@ This command removes the write permissions from the other group for the file `pr
 The research team has archived `.project_x.txt`, which is why it’s a hidden file. 
 This file should not have write permissions for anyone, but the user and group should be able to read the file. 
 
-We can see hidden files and directories using the `ls -a` command. 
+We can see hidden files and directories and their permissions using the `ls -la` command. 
 
 After running `ls -l .project_x.txt`, we can see the following user and group permissions are not correct:
 1. It has write permissions for group
