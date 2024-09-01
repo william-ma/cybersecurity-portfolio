@@ -53,6 +53,8 @@ The research team has archived `.project_x.txt`, which is why it’s a hidden fi
 This file should not have write permissions for anyone, but the user and group should be able to read the file. 
 
 We can see hidden files and directories and their permissions using the `ls -la` command. 
+Hidden files and directories are prefixed with a '.' in front of their name. 
+They are considered hidden because they don't show up on the normal `ls` command. 
 
 After running `ls -l .project_x.txt`, we can see the following user and group permissions are not correct:
 1. It has write permissions for group
