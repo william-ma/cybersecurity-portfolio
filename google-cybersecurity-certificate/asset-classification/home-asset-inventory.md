@@ -7,4 +7,4 @@
 |Guest mobile|Occassional|Friend|On and off-premises|Connects to my home network|Restricted|Internal-only|
 |My mobile|Occassional|Homeowner|On and off-premises|Contains private information such as communications and photos|Restricted|
 |Girlfriend's mobile|Occassional|Girlfriend|On and off-premises|Contains private information such as communications and photos|Restricted|
-|Smart TV|Continuous|Homeowner|On-premises|Usually connected to via mobile and videos are streamed|Confidental|
+|Smart TV|Continuous|Homeowner|On-premises|Usually connected to via mobile and videos are streamed|Internal-only|
