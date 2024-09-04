@@ -20,6 +20,9 @@ There are strict financial regulations that require the bank to secure their dat
 
 ## Notes
 
+The number of other companies the bank interacts with is another important risk to consider. 
+Because it'll contain risks outside the bank's control. 
+
 A business email compromise is likely due to the bank having 100 on-premise employees and 20 remote employees.  
 A compromised user database or a financial records leak is possible and will be severe due to the bank's customer base of 2,000 individual accounts and 200 commercial accounts. 
 Theft and supply chain disruption is possible but not likely due to the bank being located in a coastal area with low crime rates. 
