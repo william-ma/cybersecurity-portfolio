@@ -11,11 +11,11 @@ There are strict financial regulations that require the bank to secure their dat
 
 | Asset | Risk(s) | Description | Likelihood | Severity | Priority |
 | --- | --- | --- | --- | --- | --- |
-| Funds | Business email compromise | An employee is tricked into sharing confidential information. | 2 | 2 | 6 |
+| Funds | Business email compromise | An employee is tricked into sharing confidential information. | 2 | 2 | 4 |
 | Funds | Compromised user database | Customer data is poorly encrypted. | 2 | 3 | 6 |
 | Funds | Financial records leak | A database server of backed up data is publicly accessible. | 3 | 3 | 9 |
 | Funds | Theft | The bank's safe is left unlocked. | 1 | 3 | 3 |
-| Funds | Supply chain disruption | Delivery delays due to natural disasters. | 1 | 2 | 3 |
+| Funds | Supply chain disruption | Delivery delays due to natural disasters. | 1 | 2 | 2 |
 
 
 ## Notes
