@@ -26,3 +26,6 @@ Because it'll contain risks outside the bank's control.
 A business email compromise is likely due to the bank having 100 on-premise employees and 20 remote employees.  
 A compromised user database or a financial records leak is possible and will be severe due to the bank's customer base of 2,000 individual accounts and 200 commercial accounts. 
 Theft and supply chain disruption is possible but not likely due to the bank being located in a coastal area with low crime rates. 
+
+All risks were scored with a severity of at least 2 because there strict financial regulations that require the bank to secure their data and funds.
+Possible consequences include reputational damage (loss of customer trust), legal repercussions (failure to comply with regulations) and financial fines. 
