@@ -1,4 +1,4 @@
-# Home asset inventory and classification
+# Home asset inventory
 
 | Asset | Network asset | Owner | Location | Notes | Sensitivity |
 |-|-|-|-|-|-|
