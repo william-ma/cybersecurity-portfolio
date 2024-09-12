@@ -35,5 +35,5 @@ Some obvious issues found in the employee directory are:
 
 ## Recommendations
 
-1. Have proper access controls. Give employees the minimum level of access they need to complete their task.
+1. Have proper access controls. Give employees the minimum level of access they need to complete their task. Contractors should have less access than full-time employees. 
 2. Regularly audit user accounts. This ensures employees that are no longer working at the company, won't have active accounts. 
